@@ -1,0 +1,326 @@
+/* Cài đặt chung */
+body{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+.baner{
+    width: 100%;
+}
+header {
+    background-color: #fff;
+    padding: 20px 0;
+}
+.search table{
+    margin-top: -45px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.search{
+    margin-left: 650px;
+    margin-top: 25px;
+    float: left;
+    margin-right: 0px;
+    background-color: none;
+}
+.search-bar {
+    display: flex;
+    align-items: center;
+    width: 300px; 
+    margin: 0 20px;
+}
+
+.search-bar input[type="search"] {
+    flex: 1; 
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.search-bar button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px 0 0 4px; 
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #555;
+}
+/*danh mục sản phẩm*/
+.content1 h2{
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.content1 ul li button{
+    background-color: grey;
+    margin-right: 1px;
+    border: 10px solid gray;
+    border-right: 70px solid grey;
+    border-bottom: 1px solid gray;
+    border-top: 4px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.content1 {
+    margin-left: 30px;
+    font-size: 17px;
+}
+.content2 ul li button{
+    background-color: grey;
+    margin-right: 1px;
+    border: 10px solid gray;
+    border-right: 45px solid grey;
+    border-bottom: 1px solid gray;
+    border-top: 4px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.content2 {
+    margin-left: 30px;
+    font-size: 17px;
+}
+.content3 ul li button{
+    background-color: grey;
+    margin-right: 1px;
+    border: 10px solid gray;
+    border-right: 15px solid grey;
+    border-bottom: 1px solid gray;
+    border-top: 4px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.content3 {
+    margin-left: 30px;
+    font-size: 17px;
+}
+.line table{
+    width: 10px;
+    height: 57vh;
+    border-left: 2px solid gray;
+    margin-left: 250px;
+    margin-top: -450px;
+}
+.line1 hr{
+    border: 1px solid black; 
+    height: 0.1px; 
+    margin: 1px 0; 
+    background-color: white; 
+    width: 300px;
+    margin-left: 470px;
+    margin-top: -315px;
+  }
+.mathang table{
+    margin-left: 300px;
+    margin-bottom: 100px;
+    margin-top: 10px;
+    
+}
+.mathang img{
+    border: 1px solid #333;
+    width: 150px;
+    height: 150px;
+}
+
+.mathang1 table{
+    margin-left: 300px;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+
+.mathang1 img{
+    border: 1px solid #333;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.tenmt1 table{
+    margin-left: 340px;
+    margin-top: -450px;
+}
+.tenmt2 table{
+    margin-left: 525px;
+    margin-top: -110px;
+}
+
+.tenmt3 table{
+    margin-left: 710px;
+    margin-top: -110px;
+}
+
+.tenmt4 table{
+    margin-left: 886px;
+    margin-top: -110px;
+}
+
+.tenmt5 table{
+    margin-left: 1080px;
+    margin-top: -110px;
+}
+
+.tenmt6 table{
+    margin-left: 340px;
+    margin-top: 200px;
+}
+
+.tenmt7 table{
+    margin-left: 525px;
+    margin-top: -110px;
+}
+
+.tenmt8 table{
+    margin-left: 720px;
+    margin-top: -110px;
+}
+
+.tenmt9 table{
+    margin-left: 900px;
+    margin-top: -110px ;
+}
+
+.tenmt10 table{
+    margin-left: 1080px;
+    margin-top: -110px;
+}
+
+.line5 table{
+    width: 10px;
+    height: 57vh;
+    border-left: 2px solid gray;
+    margin-left: 250px;
+    margin-top: -460px;
+}
+/* Thanh menu */
+nav{
+    position: relative;
+    margin: 5px auto 0;
+    width: 100%;/*lấp đầy toàn bộ chiều rộng*/
+    height: 30px;
+    background-color: #d8d8d8;
+    text-align: center;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;/*phông chữ mặc định*/
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;/*sắp xếp theo chiều ngang*/
+    justify-content: space-between;
+    align-items: center;
+}
+nav a{
+    font-size: 20px;
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 5px;
+    transition: background-color 0.3s ease;
+}
+nav a:hover{
+    background-color: #ddd;
+} 
+
+/*footer*/
+.ndFooter{
+    max-width: 1170px;
+    background-color:none ;
+    margin: auto;
+    
+    
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;/*căn khoảng cách các nội dung*/
+}
+li{
+    list-style: none;
+}
+.footer{
+    background-color: #373738;
+    padding: 70px 0;
+    margin-top: 100px;
+}
+.ndFooter-col{
+    width: 25%;
+    padding: 0 15px;
+}
+.ndFooter-col h2{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 35px;
+    font-weight: 500;
+    position: relative;
+}
+.ndFooter-col h2::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    background-color: #055802;
+    height: 3px;
+    box-sizing: border-box;
+    width: 200px;
+}
+.ndFooter-col li:not(:last-child){
+    margin-bottom: 10px;
+}
+.ndFooter-col li a{
+    font-size: 16px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: #bbb;
+    display: block;
+    transition: all 0.3s ease;
+}
+.ndFooter-col li a:hover{
+    color: #fff;
+    padding-left: 8px;
+}
+.ndFooter-col .social-link a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: transform 0.5s ease; 
+}
+.ndFooter-col .social-link a:hover{
+    color: #24262b;
+    background-color: #fff;
+}
+.social-link{
+    display: flex;
+}
+@media(max-width: 767px){
+    .ndFooter-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+@media(max-width: 574px){
+    .ndFooter-col{
+        width: 100%;
+    }
+}
